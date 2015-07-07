@@ -30,10 +30,10 @@ class MotorControl:
     	GPIO.setup(self.right[self.BACKWARD],GPIO.OUT)
 
   def cleanUp(self):
-    	GPIO.output(self.left(self.FORWARD),False)
-    	GPIO.output(self.left(self.BACKWARD),False)
-    	GPIO.output(self.right(self.FORWARD),False)
-    	GPIO.output(self.right(self.BACKWARD),False)
+    	GPIO.output(self.left[self.FORWARD],False)
+    	GPIO.output(self.left[self.BACKWARD],False)
+    	GPIO.output(self.right[self.FORWARD],False)
+    	GPIO.output(self.right[self.BACKWARD],False)
     	GPIO.cleanup()
 
 
