@@ -19,6 +19,6 @@ while True:
     masterControl.stop()
     break
 
-  sleep(float(sleep_period))
-  masterControl.stop()
+  #sleep(float(sleep_period))
+  #masterControl.stop()
 masterControl.exit()
